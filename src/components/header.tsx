@@ -29,7 +29,6 @@ export default function Header() {
                 }
               )}>
               <Link href={route.path}>{route.name}</Link>
-
               {activePathname === route.path && (
                 <motion.div
                   layoutId="header-active-linkff"
